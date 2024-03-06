@@ -1,0 +1,53 @@
+# Project 3: Random Walk
+
+* Author: Ryan Thompson
+* Class: CS121 Section 1
+* Semester: Fall 2017
+
+## Overview
+
+Creates a random walk with a final destination in mind. 
+Uses methods to create the random walk.
+
+.## Compiling and Using
+
+To compile, execute the following command in the main 
+project directory:
+```
+$ javac RandomWalk.java
+$ javac RandomWalkTest.java
+$ javac RandomWalkGUI.java
+$ java GridMap.java
+```
+To display in the console
+Run the compiled class with the command:
+```
+$ java RandomWalkTest.java
+```
+To display in the GUI
+Run the compiled class with the command:
+```
+$ java RandomWalkGUI <integer gridSize> <integer seed>
+```
+
+## Discussion
+
+Syncing up all the methods was the most time-consuming 
+aspect of the project for me. At first, I got the 
+methods to do anything, to see what they were doing. 
+After some trial and error, I finally got the methods 
+to produce the desired outcome.
+
+Using the RandomWalkGUI was beneficial in trouble 
+shooting the program. Being able to see what the 
+program was doing make fixes quicker and easier to 
+implement.
+
+## Testing
+
+To test my program, I ran it in eclipse after 
+almost every edit. Once I figured out how to use 
+the RandomWalkGUI.java file I used this as well to 
+test my program. Testing often helped me correct 
+errors before I reached the point where I forgot
+what code I previously edited.  

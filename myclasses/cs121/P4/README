@@ -1,0 +1,48 @@
+# Project 4: TextStatistics 
+
+* Author: Ryan Thompson
+* Class: CS121
+* Semester: Fall 2017
+
+## Overview
+
+This Java application takes a text file(s) and generates the 
+statistics for the file. Statistics such as, word count, letter occurrences,
+number of lines. 
+
+## Compiling and Using
+
+To compile, execute the following command in the main project directory:
+```
+$ javac ProcessText.java 
+```
+
+Run the compiled class with the command:
+```
+$ java ProcessText file1 [file2…]
+```
+
+You will be prompted for file names that you want to get the 
+statistics for.
+
+## Discussion
+
+This project proved to be more challenging than the previous projects. 
+Through some trial and error, I eventually got the code to start 
+generating statistics for a text file. Once I got the code going the 
+most challenging aspect was counting each individual letter occurrence. 
+Counting the letters was not particularly difficult, just tricky. The 
+trickiness of counting the letter was completed, with the use on an 
+array and the use a for loops. 
+
+## Testing
+
+Once I got the code running and printing something I made sure to run
+the code every time I made a significant edit. This allowed me to conduct
+quick and generally effective edits without having to sift through all of 
+my code. 
+
+To test my code, I used the run configuration in eclipse to test the code 
+quickly. For additional testing I ran the code from the command-line on 
+my windows 10 computer. The code appeared to be working well in both of 
+the testing situations

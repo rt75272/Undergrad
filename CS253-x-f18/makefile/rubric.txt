@@ -1,0 +1,154 @@
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[93]  NOTE:  Begin grading on Mon Sep 17 14:55:13 MDT 2018 using temp file, /tmp/jimconrad59810  -- score=30
+[96]  NOTE:  Grading expected Makefile name  -- score=30
+[97]  ERROR:  Missing expected file Makefile  -- score=27
+[100]  NOTE:  Grading submission cleaned of binaries  -- score=27
+[112]  NOTE:  Grading make default target  -- score=27
+[116]  ERROR:  Make failed to build the default target  -- score=15
+[120]  NOTE:  Grading remake of default target  -- score=15
+[122]   ERROR:  Substring Nothing to be done missing in string,   -- score=12
+[125]  NOTE:  Grading executable  -- score=12
+[126]  ERROR:  Missing expected file myprog  -- score=-18
+[130]  ERROR:  myprog failed to run and exit with zero status  -- score=-21
+[134]  NOTE:  Grading make all  -- score=-21
+[137]  ERROR:  Missing expected file myprog  -- score=-24
+[140]  NOTE:  Grading make myprog  -- score=-24
+[143]  ERROR:  Missing expected file myprog  -- score=-27
+[147]  NOTE:  Grading source file changes  -- score=-27
+[154]  ERROR:  make did not rebuild f1.o after touching f1.c  -- score=-33
+[158]  NOTE:  Grading header file changes  -- score=-33
+[165]  ERROR:  make did not rebuild f1.o after touching *.h  -- score=-39
+[169]  NOTE:  Grading use of gcc -Wall and c99  -- score=-39
+[171]   ERROR:  Substring Wall missing in string,   -- score=-40
+[172]   ERROR:  Substring c99 missing in string,   -- score=-41
+[175]  NOTE:  Grading make clean  -- score=-41
+[184]  NOTE:  Grading make clean in a clean directory  -- score=-41
+[ERROR:  make clean in a clean directory failed]    -- score=-44
+[198]  NOTE:  Finished grading  -- score=0
+Grade:  0 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+./backpack.sh: line 127: ./myprog: No such file or directory
+make: *** No rule to make target `all'.  Stop.
+make: *** No rule to make target `myprog'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+cat: Makefile: No such file or directory
+make: *** No rule to make target `clean'.  Stop.
+make: *** No rule to make target `clean'.  Stop.
+Grade:  0 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[93]  NOTE:  Begin grading on Mon Sep 17 16:19:33 MDT 2018 using temp file, /tmp/jimconrad186255  -- score=30
+[96]  NOTE:  Grading expected Makefile name  -- score=30
+[97]  ERROR:  Missing expected file Makefile  -- score=27
+[100]  NOTE:  Grading submission cleaned of binaries  -- score=27
+[112]  NOTE:  Grading make default target  -- score=27
+[116]  ERROR:  Make failed to build the default target  -- score=15
+[125]  NOTE:  Grading executable  -- score=15
+[126]  ERROR:  Missing expected file myprog  -- score=-15
+[130]  ERROR:  myprog failed to run and exit with zero status  -- score=-18
+[134]  NOTE:  Grading make all  -- score=-18
+[137]  ERROR:  Missing expected file myprog  -- score=-21
+[140]  NOTE:  Grading make myprog  -- score=-21
+[143]  ERROR:  Missing expected file myprog  -- score=-24
+[147]  NOTE:  Grading source file changes  -- score=-24
+[154]  ERROR:  make did not rebuild f1.o after touching f1.c  -- score=-30
+[158]  NOTE:  Grading header file changes  -- score=-30
+[165]  ERROR:  make did not rebuild f1.o after touching *.h  -- score=-36
+[169]  NOTE:  Grading use of gcc -Wall and c99  -- score=-36
+[171]   ERROR:  Substring Wall missing in string,   -- score=-37
+[172]   ERROR:  Substring c99 missing in string,   -- score=-38
+[175]  NOTE:  Grading make clean  -- score=-38
+[184]  NOTE:  Grading make clean in a clean directory  -- score=-38
+[ERROR:  make clean in a clean directory failed]    -- score=-41
+[198]  NOTE:  Finished grading  -- score=0
+Grade:  0 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+make: *** No targets specified and no makefile found.  Stop.
+./backpack.sh: line 127: ./myprog: No such file or directory
+make: *** No rule to make target `all'.  Stop.
+make: *** No rule to make target `myprog'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+cat: Makefile: No such file or directory
+make: *** No rule to make target `clean'.  Stop.
+make: *** No rule to make target `clean'.  Stop.
+Grade:  0 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[93]  NOTE:  Begin grading on Fri Sep 21 13:27:52 MDT 2018 using temp file, /tmp/jimconrad384490  -- score=30
+[96]  NOTE:  Grading expected Makefile name  -- score=30
+[100]  NOTE:  Grading submission cleaned of binaries  -- score=30
+[112]  NOTE:  Grading make default target  -- score=30
+[125]  NOTE:  Grading executable  -- score=30
+[134]  NOTE:  Grading make all  -- score=30
+[140]  NOTE:  Grading make myprog  -- score=30
+[147]  NOTE:  Grading source file changes  -- score=30
+[158]  NOTE:  Grading header file changes  -- score=30
+[165]  ERROR:  make did not rebuild f1.o after touching *.h  -- score=24
+[169]  NOTE:  Grading use of gcc -Wall and c99  -- score=24
+[175]  NOTE:  Grading make clean  -- score=24
+[184]  NOTE:  Grading make clean in a clean directory  -- score=24
+[198]  NOTE:  Finished grading  -- score=24
+Grade:  24 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+cc -Wall -std=c99   -c -o main.o main.c
+cc -Wall -std=c99   -c -o f1.o f1.c
+cc -Wall -std=c99   -c -o f2.o f2.c
+cc -Wall -std=c99   -c -o f3.o f3.c
+gcc -Wall -std=c99 main.o f1.o f2.o f3.o -o myprog
+Invoking functions f1, f2 and f3
+Hello! You have invoked f1().
+Hello! You have invoked f2().
+Hello! You have invoked f3().
+It works!
+cc -Wall -std=c99   -c -o main.o main.c
+cc -Wall -std=c99   -c -o f1.o f1.c
+cc -Wall -std=c99   -c -o f2.o f2.c
+cc -Wall -std=c99   -c -o f3.o f3.c
+gcc -Wall -std=c99 main.o f1.o f2.o f3.o -o myprog
+cc -Wall -std=c99   -c -o main.o main.c
+cc -Wall -std=c99   -c -o f1.o f1.c
+cc -Wall -std=c99   -c -o f2.o f2.c
+cc -Wall -std=c99   -c -o f3.o f3.c
+gcc -Wall -std=c99 main.o f1.o f2.o f3.o -o myprog
+make: Nothing to be done for `all'.
+cc -Wall -std=c99   -c -o f1.o f1.c
+make: Nothing to be done for `all'.
+rm -f *.o myprog
+rm -f *.o myprog
+Grade:  24 points

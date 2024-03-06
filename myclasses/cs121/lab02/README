@@ -1,0 +1,46 @@
+# Project 2: ConvertToSeconds, ConvertToHours
+
+
+Author: Ryan Thompson
+Class: CS121L Section 1
+Semester: Fall 2017
+
+
+## Overview 
+
+The ConvertToSeconds Java program takes three integers(hours, minutes, seconds) and 
+converts them all to seconds. The ConvertToHours takes 3 integers as well and 
+converts them to hours, in fractional/decimal form.
+
+
+## Compiling and Using 
+
+
+To compile ConvertToSeconds:
+
+$ javac ConvertToSeconds.java
+
+Run ConvertToSeconds:
+
+$ java ConvertToSeconds
+
+
+To compile ConvertToHours:
+
+$ javac ConvertToHours.java
+
+Run ConvertToHours:
+
+$ java ConvertToHours
+
+
+## Discussion
+
+Overall the genesis of both ConvertToSeconds and ConvertToHours came together smoothly.
+
+
+## Testing 
+
+To make sure both ConvertToSeconds and ConvertToHours worked properly, I 
+compiled and ran both of the programs. Both programs appear to be working 
+properly.

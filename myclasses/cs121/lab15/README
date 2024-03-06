@@ -1,0 +1,36 @@
+Debugging Log
+
+DebuggerTest2:
+	For DebuggerTest2 I started the 
+	debugger with F11. At which point 
+	the debugger menu threw an
+	ArrayIndexOutOfBounds exception. I  
+	found the cause of this to be in the
+	for loop. I changed the <= operator to
+	a < operator. After making this change 
+	the program successfully initialized the 
+	fleet or cars. 
+	
+ FindRoute - Bug 1:
+ 	After pulling up the debugger menu and
+ 	cycling through the lines of code with
+ 	F5 and F6 I isolated the bug to be on 
+ 	line 41. The bug ended up being an 
+ 	extra semicolon attached to the end of
+ 	the while loop conditions parameter.
+ 	
+ FindRoute - Bug 2:
+ 	The second bug was located in the 
+ 	Car class that the FindRoute class
+ 	was using. Using the debugger I found
+ 	the issue to be located in the nextMove()
+ 	method. Since the nextMove() method was 
+ 	taking too long to run I figured the 
+ 	incrementing must have been off. The bug 
+ 	ended up being an issue of the incrementer 
+ 	and decrementer being mixed up. The incrementer 
+ 	that was heading left needed to be switched
+ 	to head right, and vice versa. After switching 
+ 	the decrementer and the incrementer the program
+ 	was running correctly.  
+	

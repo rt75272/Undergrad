@@ -1,0 +1,65 @@
+# Project 3: Parking Finder
+
+* Author: Ryan Thompson
+* Class: CS121 Section 1
+* Semester: Fall 2017
+
+## Overview
+
+This Java application takes user input and creates a 
+random car location, along with four random parking spots.
+Then the application determines which of the four 
+randomly generated parking spots is closest to the car’s
+location.
+
+## Compiling and Using
+
+To compile, execute the following command in the main 
+project directory:
+```
+$ javac ParkingFinder.java
+$ javac ParkingSpot.java
+
+```
+
+Run the compiled class with the command:
+```
+$ java ParkingFinder
+
+```
+
+You will be prompted for numerical values to determine 
+the range of the randomly generated automobile and 
+parking spot locations. Afterwards you will be prompted
+for the desired amount of time to park the automobile. 
+
+## Discussion
+
+In an effort to make my code more readable I spaced out 
+the code for each section. Additionally, I added comments 
+as a way to title each portion. Some of the comment 
+titles include “Parking spot number”, “General setup”, 
+and “Finding the closest parking spot”. The spacing and 
+comment titles did help me sort through my code as I 
+progressed with this project. Which did make edits much 
+quicker and easier later on in the project. 
+
+Linking class methods from the ParkingSpot.java file was 
+a bit confusing at first. However, once I understood how 
+to use the ParkingSpot methods in my ParkingFinder class 
+I was off and rolling. I do like the newfound knowledge 
+to link up two java files. I believe being able to break 
+up my code into multiple files will be a useful skill on 
+future coding adventures that are more strenuous. 
+
+##Testing 
+
+To avoid headaches towards the end of the project I 
+tested the program every time I edited the code. This 
+did prove to make edits quick and easy to implement. 
+Once the program was complete I ran it in eclipse one 
+last to make sure it ran good. In eclipse the program 
+ran smoothly. To double check my program ran correctly, 
+I ran the code in the command line. In the command line 
+the program ran smoothly. 
+

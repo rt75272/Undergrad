@@ -1,0 +1,15 @@
+[93]  NOTE:  Begin grading on Wed Sep 19 18:58:41 MDT 2018 using temp file, /tmp/ryanthompson31721507  -- score=30
+[96]  NOTE:  Grading expected Makefile name  -- score=30
+[100]  NOTE:  Grading submission cleaned of binaries  -- score=30
+[112]  NOTE:  Grading make default target  -- score=30
+[125]  NOTE:  Grading executable  -- score=30
+[134]  NOTE:  Grading make all  -- score=30
+[140]  NOTE:  Grading make myprog  -- score=30
+[147]  NOTE:  Grading source file changes  -- score=30
+[158]  NOTE:  Grading header file changes  -- score=30
+[165]  ERROR:  make did not rebuild f1.o after touching *.h  -- score=24
+[169]  NOTE:  Grading use of gcc -Wall and c99  -- score=24
+[175]  NOTE:  Grading make clean  -- score=24
+[184]  NOTE:  Grading make clean in a clean directory  -- score=24
+[198]  NOTE:  Finished grading  -- score=24
+Grade:  24 points

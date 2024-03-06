@@ -1,2 +1,2 @@
-# Undergrad
-Coursework from my undergraduate career
+# University Coursework
+Archive of some university coursework

@@ -1,0 +1,56 @@
+# Project 1: Minewalker
+
+* Author: Ryan Thompson
+* Class: CS121
+* Semester: Fall 2017
+
+## Overview
+
+This Java application runs a basic Minewalker game. This is done with the use of a GUI.
+
+## Compiling and Using
+
+To compile, execute the following command in the main project directory:
+```
+$ javac MineWalker.java
+```
+
+Run the compiled class with the command:
+```
+$ java MineWalker
+```
+
+## Discussion
+
+I am not going to lie, this project proved to be more challenging than I thought it would be.
+I initially underestimated the time I would need to complete this project. Which lead to a 
+lot of last minute scrambling. 
+
+For some reason I could not my Minewalker files to cooperate with my
+RandomWalk.java file. Therefore, to avoid spending anymore time going in circles, I built a 
+quick version of RandomWalk in my MineWalkerPanel.java file. Which seemed to work just fine 
+once I got it up and running. However, I did include Randomwalk.java in my project 5 folder. 
+
+Another aspect I struggled with was keeping track of the buttons that were a part of the 
+path and the buttons that were mines. I overcame this issue with perhaps an unorthodox way... 
+When my loops set buttons to be part of the path I set the foreground of each path button 
+to blue. With the mines I had my for loops set each mine button to have a foreground color 
+f black. Since there was simply a blank string in each of the buttons the string did not s
+how up on the screen, however, the foreground color property was there to called upon. 
+Surprisingly, using this foreground color method worked out relatively well. 
+
+Despite the intense last minute scramble, I did enjoy putting this basic GUI together. 
+Furthermore, I look forward to building some more GUIs in the future. However, I will 
+certainly give myself more time to produce a quality GUI next time. Lesson learned...
+procrastination can be a good motivator but its not good for producing quality programs. 
+
+## Testing
+
+As for testing, I made sure to run the program every time I made an edit on eclipse. This 
+helped me stay on-top of any disastrous edits that needed to done, before moving on. Once 
+I ran out of time and got my program to a somewhat acceptable working condition, I tested 
+it from the command line on my windows setup. From the cmd in windows the program worked 
+just fine. Then I uploaded and tested the file in onyx. Running the program in onyx 
+resulted in positive results. Overall the program appears to be running well. 
+
+

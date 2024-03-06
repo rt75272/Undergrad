@@ -1,0 +1,47 @@
+# Project 1: Traffic Animation
+
+* Author: Ryan Thompson
+* Class: CS121 Section 001
+* Semester: Fall 2017
+
+## Overview
+
+This Java application displays a car driving down a road, 
+while an avatar fights to hover above the car.
+
+## Compiling and Using
+
+To compile, execute the following command in the directory:
+```
+$ javac TrafficAnimation.java
+```
+
+Run the compiled class with the command:
+```
+$ java TrafficAnimation
+```
+
+## Discussion
+
+Overall this project ran smoothly. Creating the 
+shapes themselves was not extremely challenging.
+The most challenging aspect of the project was 
+positioning the new shapes, while keeping 
+everything scaled correctly. The scale issue
+was fixed by not hard coding any of the integer 
+values. Instead the integer values are determined
+by the user's screen width and height.
+
+##Testing
+
+To make sure my project ran correctly I ran it
+almost every time I altered the code. Doing this
+made sure I could fix something immediately. While
+I was building the program I ran the project on 
+eclipse to do the trial and error.  
+
+## Sources used
+
+- I found the rgb color code for the color skyblue on 
+www.color-hex.com. link listed below.
+http://www.color-hex.com/color/add8e6

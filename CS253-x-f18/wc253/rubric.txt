@@ -1,0 +1,51 @@
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[122]  NOTE:  Begin grading on Tue Oct  2 13:40:32 MDT 2018  -- score=50
+[123]  NOTE:  Using temp file, /tmp/jimconrad865570  -- score=50
+[126]  NOTE:  Grading expected Makefile name  -- score=50
+[133]  NOTE:  Grading make default target  -- score=50
+[141]  NOTE:  Grading expected executable program, wc253, exists  -- score=50
+[145]  Note:  Grading exit status given an empty dataset, /dev/null  -- score=50
+[148]  ERROR: wc253 did not run/exit normally  -- score=50
+[153]  Note:  Grading wc253 -l data  -- score=45
+[156]  ERROR: wc253 -l data exited abnormally  -- score=45
+[161]  Note:  Grading invalid -x option  -- score=40
+[169]  Note:  Grading output from wc253 data  -- score=40
+[171]  ERROR:  Could not grep 769\s in data.result  -- score=38
+[172]  ERROR:  Could not grep \s5770\s in data.result  -- score=36
+[173]  ERROR:  Could not grep \s34553\s in data.result  -- score=34
+[174]  ERROR:  Could not grep \sdata in data.result  -- score=32
+[177]  Node: Grading file, data with -l option  -- score=32
+[179]  ERROR:  Could not grep 769\sdata in datal.result  -- score=30
+[182]  Note:  Grading file, data1  -- score=30
+[184]  ERROR:  Could not grep 4\s in data1.result  -- score=28
+[185]  ERROR:  Could not grep \s30\s in data1.result  -- score=26
+[186]  ERROR:  Could not grep \s164\s in data1.result  -- score=24
+[187]  ERROR:  Could not grep \sdata1 in data1.result  -- score=22
+[190]  Node: Grading file, data1 with -l  -- score=22
+[192]  ERROR:  Could not grep 4\sdata1 in datal1.result  -- score=20
+[195]  Note:  Grading file, data2  -- score=20
+[197]  ERROR:  Could not grep 9\s in data2.result  -- score=18
+[198]  ERROR:  Could not grep \s25\s in data2.result  -- score=16
+[199]  ERROR:  Could not grep \s171\s in data2.result  -- score=14
+[200]  ERROR:  Could not grep \sdata2 in data2.result  -- score=12
+[203]  Note: Grading file, data2 with -l  -- score=12
+[205]  ERROR:  Could not grep 9\sdata2 in datal2.result  -- score=10
+[208]  Note:  Grading make clean  -- score=10
+[214]  ERROR:  Unexpected file wc253  -- score=5
+[217]  NOTE:  Finished grading  -- score=5
+Grade:  5 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+gcc -Wall -std=c99 -g   -c -o main.o main.c
+gcc -Wall -std=c99 -g main.o -o wc253
+rm -f *.o
+Grading finished.  Results are in file, ./grading_results_instructor

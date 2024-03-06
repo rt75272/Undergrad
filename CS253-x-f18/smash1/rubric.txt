@@ -1,0 +1,33 @@
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[141]  NOTE:  Begin grading on Tue Oct 16 16:14:23 MDT 2018  -- score=80
+[142]  NOTE:  Using temp file, /tmp/jimconrad1011279  -- score=80
+[146]  NOTE:  Checking for binary files  -- score=80
+[151]  NOTE:  Grading the Makefile  -- score=80
+[160]  Note:  Grading the build  -- score=80
+[168]  Note:  Grading smash exits normally with EOF input  -- score=80
+[177]  Note:  Grading the exit command  -- score=80
+[186]  Note:  Grading the cd command  -- score=80
+[188]   ERROR:  Substring /home/JimConrad missing in string, $ Error /home/RyanThompson317$   -- score=72
+[192]  Note:  Grading stderr message for cd to a non-existent directory  -- score=72
+[205]  Grading token parsing per the assignment specification  -- score=72
+[212]  ERROR:  smash is not parsing tokens from file test.in per assignment  -- score=56
+[213]  Note:  The expected output is in test.out  -- score=56
+[214]  Note:  The actual output is in /tmp/jimconrad1011279  -- score=56
+[215]  Note:  The diff result is in diff.out  -- score=56
+[220]  Note:  Grading make clean  -- score=56
+[230]  NOTE:  Finished grading  -- score=56
+Grade:  56
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+gcc -Wall -g -O0 -std=c99 -o smash smash.c
+rm -f *.o *~ smash
+Grading finished.  Results are in file, ./grading_results_instructor
